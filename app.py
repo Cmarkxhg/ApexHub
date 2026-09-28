@@ -17,8 +17,8 @@ st.set_page_config(
 # PIN Rahasia Admin (Ganti angka ini sesuai keinginan Anda)
 ADMIN_PIN = "8899"
 
-DB_FILE = os.path.expanduser("~/saham-syariah-app/portfolio_tracker.json")
-BOT_FILE = os.path.expanduser("~/saham-syariah-app/bot_state.json")
+DB_FILE = os.path.expanduser("portfolio_tracker.json")
+BOT_FILE = os.path.expanduser("bot_state.json")
 
 def load_json(path, default):
     if not os.path.exists(path):
